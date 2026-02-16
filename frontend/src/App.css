@@ -103,7 +103,9 @@ html, body, #root {
 }
 
 .headingone {
-  height: 20vh;
+  min-height: 20vh;
+  height: auto;
+  padding: 40px 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -257,3 +259,65 @@ h2 {
   position: relative;
 }
 
+.projects-list {
+  width: 43vw;
+  font-weight: 300;
+  font-size: large;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.projects-list a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+
+.projects-list a:hover {
+  color: #c34cff;
+  border-bottom: 1px solid #c34cff;
+  transform: translateX(5px);
+}
+.projects-grid {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 220px;
+  height: 220px;
+  border: 2px solid #c34cff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.project-card:hover {
+  background-color: #c34cff;
+  transform: translateY(-8px);
+}
+
+.project-card:hover a {
+  color: black;
+}

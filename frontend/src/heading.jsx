@@ -11,8 +11,33 @@ export default function Heading(props) {
 export function Heading2() {
     return (
         <div>
-            <h1 className='headingonetxt selectedpurple' style={{ color: '#c34cff'}}>some projects<br/>for show</h1>
-            <h1 className='paragraph-content-1 selectedpurple' style={{ color: 'white'}}>Under-development </h1>
+            <h1 className='headingonetxt selectedpurple' style={{ color: '#c34cff'}}>
+                some projects<br/>for show
+            </h1>
+
+            <div className='projects-grid selectedpurple'>
+
+                <div className='project-card'>
+                    <a 
+                      href="https://github.com/yashdeep7733/back-propogation-neural-network-optimisation" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                        Neural Network<br/>From Scratch
+                    </a>
+                </div>
+
+                <div className='project-card'>
+                    <a 
+                      href="https://github.com/yashdeep7733/ImageInfo" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                        ImageInfo<br/> Processing Tool
+                    </a>
+                </div>
+
+            </div>
         </div>
     )
 }
