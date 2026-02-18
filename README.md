@@ -1,7 +1,5 @@
 # Under Development 
 
-### (Backend is not being hosted currently so comments will not work till i host)
-
 A modern, minimal, and responsive site to showcase stuff.
 
 ## Beta Live Demo
