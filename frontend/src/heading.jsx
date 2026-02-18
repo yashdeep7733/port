@@ -37,6 +37,16 @@ export function Heading2() {
                     </a>
                 </div>
 
+                <div className='project-card'>
+                    <a 
+                      href="https://github.com/yashdeep7733/AtmosAI-Real-Time-AQI-Monitoring-Prediction-System" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                        AtmosAI<br/>AQI Monitoring & Prediction System
+                    </a>
+                </div>
+
             </div>
         </div>
     )
