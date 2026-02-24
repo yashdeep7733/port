@@ -4,13 +4,11 @@ export default function Paragraph() {
   return (
     <div className=''>
       <p className='paragraph-content-1 selectedgreen'>
-        Hey there! I'm Yash — a recent high school graduate passionate about building cool and meaningful projects. 
-        I’m currently learning by doing, experimenting with technologies, 
-        and constantly pushing myself to grow as a developer.
-        I love combining functionality with clean design. Python is my favorite language, and 
-        I’m currently learning full-stack web development using it.
-        So far, I’ve worked with tools like React, Flask, Bootstrap, Git, and VS Code. I learn by building, 
-        and yap yap yap yap yap yap
+        Hey there! I'm Yash — a BTech student specializing in AI & Data Science who loves turning ideas into impactful projects.  
+        I learn by building, experimenting with real-world problems, and constantly sharpening my fundamentals.  
+        Python is my core language, and I enjoy working across the stack using tools like React and Flask.  
+        I’m especially interested in machine learning, deep learning, and creating systems that are both efficient and cleanly designed.  
+        For me, growth comes from consistency, curiosity, and shipping meaningful work.
       </p>
     </div>
   )
