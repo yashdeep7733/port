@@ -101,7 +101,7 @@ export function ReviewsTable({ refreshTrigger }) {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch('https://port-bu0p.onrender.com/api/comments')
+    fetch('https://port-bfnb.onrender.com/api/comments')
       .then(res => res.json())
       .then(data => setReviews(data))
       .catch(err => console.error('Error fetching reviews:', err));
