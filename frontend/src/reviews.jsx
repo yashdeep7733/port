@@ -13,7 +13,7 @@ const handleKeyPress = (e) => {
       return;
     }
 
-fetch('https://port-bu0p.onrender.com/api/submit', {
+fetch('https://port-bfnb.onrender.com/api/submit', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ name, comment })
