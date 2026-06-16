@@ -29,11 +29,11 @@ export function Heading2() {
 
                 <div className='project-card'>
                     <a 
-                      href="https://github.com/yashdeep7733/ImageInfo" 
+                      href="https://github.com/yashdeep7733/RealTime-Face-Detection-System-1.1.0" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
-                        ImageInfo<br/> Processing Tool
+                        Image Face<br/>Detection System
                     </a>
                 </div>
 
