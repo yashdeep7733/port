@@ -19,11 +19,11 @@ export function Heading2() {
 
                 <div className='project-card'>
                     <a 
-                      href="https://github.com/yashdeep7733/back-propogation-neural-network-optimisation" 
+                      href="https://github.com/yashdeep7733/Synapse-nn" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
-                        Neural Network<br/>From Scratch
+                        Synapse-nn Neural<br/>Network Library
                     </a>
                 </div>
 
