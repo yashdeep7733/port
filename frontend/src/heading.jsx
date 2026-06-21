@@ -19,7 +19,7 @@ export function Heading2() {
 
                 <div className='project-card'>
                     <a 
-                      href="https://github.com/yashdeep7733/Synapse-nn" 
+                      href="https://synapse-nn.netlify.app/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
