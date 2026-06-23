@@ -28,7 +28,7 @@ export function TerminalInfo() {
       color: '#ffffff'
     }}>
       <div>
-        <span style={{ color: '#ff6ac1' }}>yashlgn</span>
+        <span style={{ color: '#ff6ac1' }}>yashdeep</span>
         <span style={{ color: '#ffffff' }}>@</span>
         <span style={{ color: '#4cffa1' }}>yash-machine</span>
         <span style={{ color: '#ffffff' }}>:~$</span>
@@ -52,7 +52,7 @@ export function TerminalInfo() {
       <br />
 
       <div>
-        <span style={{ color: '#ff6ac1' }}>yashlgn</span>
+        <span style={{ color: '#ff6ac1' }}>yashdeep</span>
         <span style={{ color: '#ffffff' }}>@</span>
         <span style={{ color: '#4cffa1' }}>yash-machine</span>
         <span style={{ color: '#ffffff' }}>:~$</span>
